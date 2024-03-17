@@ -1,0 +1,92 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+
+}
+
+
+
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product{
+    -webkit-filter: brightness(100%);
+    /* border: 1px solid black; */
+    -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+    
+}
+
+.product:hover {
+    -webkit-filter: brightness(80%);
+    border: 0.5px solid grey;
+    } 
+
+
+
+
+
+
+
+.home__image{
+    width: 100%;
+    /* want this blue image behind other */
+    z-index: -1;
+    margin-bottom:0px ;
+
+    /* to get the fade */
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1), rgba(0,0,0,0));
+    margin-bottom: -200px;
+}
+
+
+
+
+
+.footer{
+    background-color: #232F3E;
+    color:white;
+    height: 535px;
+}
+
+
+
+
+.footer__first{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer_head{
+    font-size: 16px;
+    margin: 6px 0 14px 0;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.footer__logo{
+    width: 100px;
+    
+    /* to maintain aspect ratio */
+    object-fit: contain; 
+    margin: 0 20px;
+    margin-top: 18px;
+    display:flex;          
+    margin:0 auto; 
+    margin-top: 126px;      
+                           
+}
+
